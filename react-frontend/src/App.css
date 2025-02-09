@@ -1,0 +1,183 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #0078d4;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Loading Indicator */
+.loading {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* Form Styling */
+form {
+  background: #ffffff;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #444;
+  font-size: 1rem;
+}
+
+form input {
+  width: calc(100% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+form input:focus {
+  border-color: #0078d4;
+  box-shadow: 0 0 8px rgba(0, 120, 212, 0.5);
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0078d4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+/* Athletes Heading Styling */
+.athlete-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0078d4;
+  margin: 30px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Athlete List Styling */
+.athlete-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center-align cards with equal spacing */
+  padding: 10px;
+}
+
+/* Athlete Card Styling */
+.athlete-card {
+  flex: 1 1 calc(33.33% - 40px); /* Ensure 3 cards fit per row with gaps */
+  max-width: 300px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.athlete-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.athlete-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #0078d4;
+  text-align: center; /* Center the athlete card heading */
+}
+
+.event-scores {
+  margin-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 10px;
+}
+
+.event-score {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.event-score strong {
+  color: #333;
+}
+
+.total-score {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center; /* Align total score to the center */
+}
+
+/* Prevent Layout Shift (Ensure stability of values) */
+.event-score,
+.total-score {
+  min-height: 24px; /* Fixed height for consistent layout */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  .athlete-card {
+    flex: 1 1 100%; /* Take full width on smaller screens */
+  }
+}
