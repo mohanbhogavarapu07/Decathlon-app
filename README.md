@@ -23,6 +23,7 @@ A dynamic web application to calculate decathlon scores for athletes based on th
    ```
 2. ```bash
    cd node-backend
+   npm install
    node server.js
    ```
 
