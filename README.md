@@ -63,7 +63,7 @@ A dynamic web application to calculate decathlon scores for athletes based on th
 
 ## Demo Video
 
-[Watch the Demo Video](demo/demo-video.mp4)
+[Watch the Demo Video](https://vimeo.com/1054951670/68c48bd1c0?share=copy)
 
 ## Technologies Used
 - Frontend: React, CSS (with responsive design principles).
@@ -83,7 +83,6 @@ A dynamic web application to calculate decathlon scores for athletes based on th
 - Scoring formulas are based on official decathlon scoring rules.
 
 ## Contact
-- Email: your-email@example.com
-  GitHub: [Your GitHub Profile](https://github.com/your-profile)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- Email: narayana.bhogavarapu@sasi.ac.in
+- LinkedIn: [Your LinkedIn Profile](www.linkedin.com/in/mohan-bhogavarapu)
 
