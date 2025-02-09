@@ -50,13 +50,16 @@ A dynamic web application to calculate decathlon scores for athletes based on th
 ## Screenshots
 
 ### 1. Home Screen
-![Home Screen](screenshots/home-screen.png)
+![Home Screen](ss1.png)
 
 ### 2. Adding an Athlete
-![Add Athlete Form](screenshots/add-athlete-form.png)
+![Add Athlete Form](ss2.png)
 
 ### 3. Score Card
-![Score Card](screenshots/score-card.png)
+![Score Card](ss3.png)
+
+### 4. Score Card
+![Score Card](ss4.png)
 
 ## Demo Video
 
