@@ -1,11 +1,3 @@
-# Node.js dependencies
 node_modules/
 .env
-
-# Build files
-build/
 dist/
-
-# OS-specific files
-.DS_Store
-Thumbs.db
