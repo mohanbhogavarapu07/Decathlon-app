@@ -18,7 +18,7 @@ A dynamic web application to calculate decathlon scores for athletes based on th
 ### Steps to Run Locally
 1. Clone the Repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mohanbhogavarapu07/Decathlon-app.git
    cd Decathlon-Scoring-App
    ```
 2. ```bash
