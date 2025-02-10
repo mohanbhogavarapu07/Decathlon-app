@@ -39,6 +39,11 @@ A dynamic web application to calculate decathlon scores for athletes based on th
    npm start
    ```
    The app will be available at `http://localhost:3000`.
+4. If error occurs to start the application use this commands
+   ```bash
+   npm install --save-dev webpack@latest webpack-cli@latest react-scripts@latest
+   npm start
+   ```
 
 ## Key Features
 1. Accurate Event Scoring: Implements the decathlon scoring formulas for all ten events.
